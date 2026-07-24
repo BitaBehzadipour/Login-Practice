@@ -40,4 +40,3 @@ This project focuses on creating a beautiful glassmorphism login interface using
 
 ---
 
-## 📂 Project Structure
