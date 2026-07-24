@@ -1,0 +1,90 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: #080710;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input,button{
+    font-family:inherit;
+    border: none;
+    outline: none;
+}
+.wrapper{
+    width: 400px;
+    position: relative;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.shape-one{
+    background: linear-gradient(#0D47A1,#42A5F5);
+    top:-80px ;
+    left: -80px;
+}
+.shape-two{
+    background:linear-gradient(45deg, #E65100,#FFA726) ;
+    bottom:-100px;
+    right:-140px ;
+}
+.form{
+    width:100% ;
+    height:100% ;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    padding: 50px 35px 35px 35px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.13);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    /*قسمت دایره هارو بلور میکنه*/
+    backdrop-filter: blur(10px);
+}
+.form-title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-input-wrapper{
+    margin-bottom: 26px;
+}
+.form-lable{
+    font-size: 16px;
+}
+.form-input{
+    font-size: 14px;
+    background-color:rgba(255, 255, 255, 0.07) ;
+    display: block;
+    padding: 0 10px;
+    font-weight: 300;
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 5px;
+    color: #fff;
+}
+.form-input::placeholder{
+    color: #e5e5e5;
+}
+.form-sumbit-button{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    color: #080710;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
